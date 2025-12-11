@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+    <head>
+		<meta charset="utf-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+		
+		<title> SOAPSHOP | Корзина </title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style-bootstrap.css">
+		
+	</head>
+  
+  <body>
+  
+    
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light" id="up">
+		<div class="container-fluid container"><a href="index.html"><h1>SOAPSHOP</h1></a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+		
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+				<ul class="navbar-nav me-5 mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active"  href="page2-flex.html">Каталог</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="">Наборы</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="">Обо мне</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="page3-bootstrap.html">Корзина</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+      </nav>
+    </header>
+	
+	
+    <main class="bootstrap-main">
+		<div class="container">
+		<div class="row">
+			<div class="col">
+				<h2 class="font-weight-bold">ОФОРМЛЕНИЕ ЗАКАЗА</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<h3 class="font-weight-bold">СОДЕРЖИМОЕ КОРЗИНЫ</h3>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div style="text-align:center; color: #d9d9d9; padding:1rem; border: 2px solid black">
+				<h4 class="font-weight-bold">Корзина пуста</h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<h3 class="font-weight-bold">ОПЛАТА</h3>
+			</div>
+		</div>
+		<form class="row justify-content-center">
+			<div class="mb-3 row gy-1">
+				<label for="name" class="col-sm-2 form-label"><b class="h5">Фамилия Имя</b></label>
+				<div class="col-sm-4">
+					<input type="text" class="form-control" id="name" placeholder="Иванов Иван">
+				</div><label for="card" class="col-sm-2 form-label"><b class="h5">Номер карты</b></label>
+				<div class="col-sm-4">
+					<input type="text" class="form-control" id="card" placeholder="_ _ _ _  _ _ _  _ _ _  _ _ _ _">
+				</div>
+			</div>
+
+			<div class="mb-3 row gy-1">
+				<label for="tel" class="col-sm-2 form-label"><b class="h5">Телефон</b></label>
+				<div class="col-sm-4">
+					<input type="tel" class="form-control" id="tel" placeholder="+7 (_ _ _) - _ _  _ - _ _ - _ _">
+				</div>
+				<label for="name2" class="col-sm-2 form-label"><b class="h5">Держатель</b></label>
+				<div class="col-sm-4">
+					<input type="text" class="form-control" id="name2" placeholder="IVANOV IVAN">
+				</div>
+			</div>
+
+			<div class="mb-3 row gy-1">
+				<label for="email" class="col-sm-2 form-label"><b class="h5">Email</b></label>
+				<div class="col-sm-4">
+					<input type="email" class="form-control" id="email" placeholder="soapshopexample@mail.ru">
+				</div>
+				<label for="date" class="col-sm-1 form-label"><b class="h5">Срок</b></label>
+				<div class="col-sm-2">
+					<input type="text" class="form-control" id="date" placeholder="_ _ / _ _">
+				</div>
+				<label for="cvc" class="col-sm-1 form-label"><b class="h5">CVC</b></label>
+				<div class="col-sm-2">
+					<input type="password" id="cvc" class="form-control" placeholder="_ _ _">
+				</div>
+			</div>
+
+
+			<div class="mb-3 row gy-1">
+				<label for="adress"  class="col-sm-2 form-label"><b class="h5">Адрес доставки</b></label>
+				<div class="col-sm-10">
+					<input type="text" id="adress" class="form-control" placeholder="Начните вводить адрес...">
+				</div>
+			</div>
+			
+			<div class="mybut mb-3 row justify-content-end">
+				<button type="button" class="col-sm-4 btn btn-primary btn-lg btn-block fs-4" >Оплатить</button>
+
+			</div>
+		</form>
+		</div>
+    </main>
+      
+      <footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="cell-footer-nav">НАВИГАЦИЯ</div>
+					  <div class="cell-footer-main"><a href="index.html">Главная</a></div>
+					  <div class="cell-footer-catalog"><a href="page2-flex.html">Каталог</a></div>
+					  <div class="cell-footer-set"><a href="">Наборы</a></div>
+					  <div class="cell-footer-about"><a href="">Обо мне</a></div>
+					  <div class="cell-footer-buy"><a href="page3-bootstrap.html">Корзина</a></div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="cell-footer-contacts">СВЯЗАТЬСЯ СО МНОЙ</div>
+						<div class="cell-footer-number"><a href="">+7 890 984 78 45</a></div>
+						<div class="cell-footer-email"><a href="">soapshop@mail.ru</a></div>
+						<div class="cell-footer-tg"><a href="">tg: @soapshop</a></div>
+						<div class="cell-footer-vk"><a href="">vk: @soapshopoficial</a></div>
+						<div class="cell-footer-wa"><a href="">wa: @soapshop</a></div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="cell-footer-info">ИНФОРМАЦИЯ</div>
+						<div class="cell-footer-polit"><a href="">Политика конфиденциальности</a></div>
+						<div class="cell-footer-conf"><a href="">Обработка персональных данных</a></div>
+						<div class="cell-footer-rev"><a href="">Условия возврата</a></div>
+					<div class="cell-footer-copy">© 2025 SoapShop. Все права защищены.</div>
+				</div>
+			  
+			</div>
+		</div>
+	  </footer>
+  
+  </body>
+  
+  
+</html>

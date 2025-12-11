@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+    <head>
+		<meta charset="utf-8">
+		<title> SOAPSHOP | Главная</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		
+		<script src="js/jquery-3.7.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+		
+		<script src="js/script.js"></script>
+		
+	</head>
+  
+  <body>
+  <div id="snow-animation-container"></div>
+  
+    
+    <header>
+      <nav class="not-bt">
+	  <div class="nav-logo"><a href="index.html">SOAPSHOP</a></div>
+	  <div class="nav-catalog"><a href="page2-flex.html">Каталог</a></div>
+	  <div class="nav-set"><a href="">Наборы</a></div>
+	  <div class="nav-about"><a href="">Обо мне</a></div>
+	  <div class="nav-buy"><a href="page3-bootstrap.html">Корзина</a></div>
+      </nav>
+    </header>
+	
+	
+    <main>
+		<div class="banner-grid"> 
+			<div class="cell-banner"><img src="images/banner.png" alt="Баннер"></div>
+			<div class="cell-buy-button"><a href="page2-flex.html"><div class="buy-button">Купить мыло</div></a></div>
+		</div>
+      <div class="main-grid">
+	  
+			<div></div>
+			
+			<div class="cell-header-1">МЫЛО РУЧНОЙ РАБОТЫ?</div>
+			<div class="cell-about-1">
+				<div><img src="images/coffee_soap.jpg" alt="Кофейное мыло" style="width:100%"></div>
+				<div class="text"><p>Мое мыло – это результат любви к ручному производству. Я тщательно отбираю натуральные ингредиенты, чтобы создавать уникальные изделия, которые не только очищают, но и приносият удовольствие.</p></div>
+			</div>
+			<div class="cell-about-2">
+				<div><img src="images/white_soap.jpg" alt="Белое мыло" style="width:100%"></div>
+				<div class="text"><p>Каждый этап мыловарения проходит в моих руках, от смешивания ингредиентов до упаковки готовых изделий. Я горжусь тем, что могу предложить вам продукт, который создан с любовью.</p></div>
+			</div>
+			
+			<div></div>
+			
+			<div class="cell-header-2">ЧТО Я ПРЕДЛАГАЮ?</div>
+			
+			<div class="cell-offer-1">
+				<div><img src="images/hands.jpeg" alt="Руки с мылом" style="width:100%"></div>
+				<div class="text"><p>Ручная работа</p></div>
+			</div>
+			
+			<div class="cell-offer-2">
+				<div><img src="images/ingredients.jpeg" alt="Ингредиенты" style="width:100%"></div>
+				<div class="text"><p>Качественные ингредиенты</p></div>
+			</div>
+			
+			<div class="cell-offer-3">
+				<div><img src="images/color_soap.png" alt="Цветное мыло" style="width:100%"></div>
+				<div class="text"><p>Красивое оформление</p></div>
+			</div>
+			<div class="cell-catalog-button"><a href="page2-flex.html"><div class="buy-button">Перейти к каталогу</div></a></div>
+			
+			<div></div>
+			
+			<div class="cell-header-3">ИЩЕТЕ НАБОРЫ МЫЛА?</div>
+			
+			<div class="cell-set-1">
+				<div><img src="images/sets.jpg" alt="Набор мыла" style="width:100%"></div>
+				<div class="text"><p>Тематические сочетания</p></div>
+			</div>
+			
+			<div class="cell-set-2">
+				<div><img src="images/sale.jpg" alt="Много мыла" style="width:100%"></div>
+				<div class="text"><p>Выгодные предложения</p></div>
+			</div>
+			
+			<div class="cell-set-3">
+				<div><img src="images/package.png" alt="Упаковка мыла" style="width:100%"></div>
+				<div class="text"><p>Подарочная упаковка</p></div>
+			</div>
+			<div class="cell-set-button"><a href=""><div class="buy-button">Перейти к наборам</div></a></div>
+			
+			<div></div>
+			
+			<div class="cell-header-4">ОСТАЛИСЬ ВОПРОСЫ?</div>
+			<div class="cell-contact-form" id="contact">
+				<form id="contact-form">
+					<div class="contact-intro">Напишите мне, и я отвечу в ближайшее время.</div>
+					<label for="contact-name">Имя</label>
+					<input id="contact-name" name="user_name" type="text" placeholder="Как к вам обращаться" required>
+					
+					<label for="contact-email">Email</label>
+					<input id="contact-email" name="user_email" type="email" placeholder="you@example.com" required>
+					
+					<label for="contact-message">Сообщение</label>
+					<textarea id="contact-message" name="message" rows="4" placeholder="Что вас интересует?" required></textarea>
+					
+					<button type="submit" id="contact-submit">Отправить</button>
+					<div class="form-status" id="contact-status" aria-live="polite"></div>
+				</form>
+			</div>
+			
+      </div>
+     
+    </main>
+      
+      <footer>
+	  <div class="footer-grid">
+	  <div class="cell-footer-nav">НАВИГАЦИЯ</div>
+	  <div class="cell-footer-contacts">СВЯЗАТЬСЯ СО МНОЙ</div>
+	  <div class="cell-footer-info">ИНФОРМАЦИЯ</div>
+	  
+	  <div class="cell-footer-main"><a href="index.html">Главная</a></div>
+	  <div class="cell-footer-catalog"><a href="page2-flex.html">Каталог</a></div>
+	  <div class="cell-footer-set"><a href="">Наборы</a></div>
+	  <div class="cell-footer-about"><a href="">Обо мне</a></div>
+	  <div class="cell-footer-buy"><a href="page3-bootstrap.html">Корзина</a></div>
+	  
+	  <div class="cell-footer-number"><a href="">+7 890 984 78 45</a></div>
+	  <div class="cell-footer-email"><a href="">soapshop@mail.ru</a></div>
+	  <div class="cell-footer-tg"><a href="">tg: @soapshop</a></div>
+	  <div class="cell-footer-vk"><a href="">vk: @soapshopoficial</a></div>
+	  <div class="cell-footer-wa"><a href="">wa: @soapshop</a></div>
+	  
+	  <div class="cell-footer-polit"><a href="">Политика конфиденциальности</a></div>
+	  <div class="cell-footer-conf"><a href="">Обработка персональных данных</a></div>
+	  <div class="cell-footer-rev"><a href="">Условия возврата</a></div>
+	  
+	  <div class="cell-footer-copy">© 2025 SoapShop. Все права защищены.</div>
+	  
+	  </div>
+	  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="js/contact.js"></script>
+  </body>
+  
+  
+</html>

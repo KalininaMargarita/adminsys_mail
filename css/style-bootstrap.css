@@ -1,0 +1,39 @@
+.bootstrap-main, footer  {
+	margin-top: 4rem;
+}
+
+h2 {
+	font-size: 2rem!important;
+	border-bottom: 2px solid black;
+	width: 100%;
+}
+
+h3 {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+.nav-item {
+	border-right: 2px solid black;
+}
+
+footer div div .col-sm-4 {
+	text-align: center;
+}
+
+.mybut button {
+	
+	background-color: #f3f2eb;
+	color: black;
+	border: none;
+}
+
+.mybut button:hover, .mybut button:focus, .mybut button:active {
+	color: black;
+	background: rgb(243,242,235);
+background: linear-gradient(90deg, rgba(243,242,235,1) 0%, rgba(255,255,255,1) 50%, rgba(243,242,235,1) 100%);
+}
+
+div label {
+	background-color: #f3f2eb;
+}
