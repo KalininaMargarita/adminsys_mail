@@ -1,7 +1,7 @@
 // Настройте свои данные EmailJS ниже
 const EMAILJS_SERVICE_ID = "service_6x9w86f";
 const EMAILJS_TEMPLATE_ID = "template_ah2cxgw";
-const EMAILJS_PUBLIC_KEY = "R1Dh7QgCwok1k6uILL22";
+const EMAILJS_PUBLIC_KEY = "yEpyfELisgg0JMKA9";
 
 (function initEmailJS() {
   if (typeof emailjs === "undefined") {
@@ -53,4 +53,5 @@ if (contactForm) {
     }
   });
 }
+
 
